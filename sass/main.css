@@ -1,5 +1,11 @@
 /* main.scss */
-
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e632f3;
+  color: rgb(12, 13, 13);
+  margin: 0;
+  padding: 0;
+}
 
 header {
   background-color: #0ad0e2;
@@ -53,7 +59,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #13d5fc;
+  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -63,7 +69,7 @@ body {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #0a0a0a;
+  color: #818181;
   display: block;
   transition: 0.3s;
 }
@@ -80,6 +86,11 @@ body {
   margin-left: 50px;
 }
 
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -87,6 +98,14 @@ body {
 
 
 
-/* slideshow img */
+.carousel-inner{
+   height: 300px;
+   width: 300px;
+   align-items: center;
+}
 
-
+.item, img{
+  height: 50% !important;
+  width:  50% !important;
+  border: 1px solid red;
+}
