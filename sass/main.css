@@ -47,7 +47,7 @@ section a.cta-button:hover {
 }/*# sourceMappingURL=main.css.map */
 
 
-
+/* sidenav css */
 body {
   font-family: "Lato", sans-serif;
 }
@@ -109,7 +109,7 @@ body {
 
 
 
-
+/* scrollling header img  */
 
 *,
 *:before,
@@ -514,7 +514,7 @@ body {
 
 
 
-
+/* scrolling card ui using flex box  (css) */
 
 :root {
     --red: #ef233c;
